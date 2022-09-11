@@ -3,21 +3,21 @@ exec "source " . expand('<sfile>:p:h') . "/dim.vim"
 let colors_name = "grim"
 
 if &background == "light"
-  highlight Constant       ctermfg=8
-  highlight Identifier     ctermfg=0
-  highlight PreProc        ctermfg=0 cterm=bold
-  highlight Special        ctermfg=0
-  highlight Statement      ctermfg=0 cterm=bold
-  highlight Title          ctermfg=0 cterm=bold
-  highlight Type           ctermfg=0
-  highlight Underlined     cterm=underline ctermfg=0
+  hi Constant   ctermfg=8
+  hi Identifier ctermfg=0
+  hi PreProc    ctermfg=0 cterm=bold
+  hi Special    ctermfg=0
+  hi Statement  ctermfg=0 cterm=bold
+  hi Title      ctermfg=0 cterm=bold
+  hi Type       ctermfg=0
+  hi Underlined ctermfg=0 cterm=underline
 else
-  highlight Constant       ctermfg=7
-  highlight Identifier     ctermfg=15
-  highlight PreProc        ctermfg=15 cterm=bold
-  highlight Special        ctermfg=15
-  highlight Statement      ctermfg=15 cterm=bold
-  highlight Title          ctermfg=15 cterm=bold
-  highlight Type           ctermfg=15
-  highlight Underlined     cterm=underline ctermfg=15
+  hi Constant   ctermfg=7
+  hi Identifier ctermfg=15
+  hi PreProc    ctermfg=15 cterm=bold
+  hi Special    ctermfg=15
+  hi Statement  ctermfg=15 cterm=bold
+  hi Title      ctermfg=15 cterm=bold
+  hi Type       ctermfg=15
+  hi Underlined ctermfg=15 cterm=underline
 end
