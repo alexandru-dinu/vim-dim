@@ -15,8 +15,7 @@ hi DiffChange     ctermfg=0    ctermbg=3
 hi DiffDelete     ctermfg=0    ctermbg=1
 hi DiffText       ctermfg=0    ctermbg=11   cterm=bold
 
-" Invert selected lines in visual mode
-hi Visual         ctermfg=NONE ctermbg=NONE cterm=inverse
+hi Visual         ctermfg=7    ctermbg=8    cterm=none
 
 " hi search matches in black, with a yellow background
 hi Search         ctermfg=0    ctermbg=11

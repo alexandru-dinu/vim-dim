@@ -8,7 +8,7 @@ hi ErrorMsg     ctermfg=15 ctermbg=1
 hi Identifier   ctermfg=6  cterm=NONE
 hi Ignore       ctermfg=15
 hi IncSearch    cterm=reverse
-hi MatchParen   ctermbg=14
+hi MatchParen   ctermfg=0  ctermbg=15 cterm=none
 hi ModeMsg      cterm=bold
 hi MoreMsg      ctermfg=2
 hi NonText      ctermfg=12
@@ -18,7 +18,8 @@ hi PreProc      ctermfg=5
 hi Question     ctermfg=2
 hi Special      ctermfg=5
 hi SpecialKey   ctermfg=4
-hi SpellBad     ctermbg=9
+hi SpellBad     ctermfg=7  ctermbg=1 cterm=none
+hi SpellCap     ctermfg=0  ctermbg=3 cterm=none
 hi SpellLocal   ctermbg=14
 hi SpellRare    ctermbg=13
 hi Statement    ctermfg=3
